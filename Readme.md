@@ -2,7 +2,7 @@
 
 ## About
 Realy simple program with which I have a lot of fun creating it! You can basically add, modify and remove all tasks you want to do and select which one are alredy done.
-There is a lot we can do about this program, but this is first working prototype so 
+There is a lot we can do about this program, but this is first working prototype so I wanted to share it :)
 
 ## Installation
 1. This app was created using SQL Server 2017 Express. If you want to change that you will have to modify connection string in App.config file.
