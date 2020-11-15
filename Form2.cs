@@ -91,6 +91,7 @@ namespace NHibernateStart
                 {
                     Task.Name = this.textBoxTaskName.Text;
                     Task.Description = this.richTextBoxTaskDescription.Text;
+                    Task.ModifiedOn = DateTime.Now;
 
                     mySession.Update(Task);
                     mySession.Transaction.Commit();
